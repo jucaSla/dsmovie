@@ -1,13 +1,13 @@
-package com.example.desmovie;
+package com.devsuperior.dsmovie;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DesmovieApplication {
+public class ProjetoCriadoNaSemanaSpringReactApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DesmovieApplication.class, args);
+		SpringApplication.run(ProjetoCriadoNaSemanaSpringReactApplication.class, args);
 	}
 
 }
