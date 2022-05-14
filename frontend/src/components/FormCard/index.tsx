@@ -37,7 +37,7 @@ function FormCard( { movieId } : Props) {
             }
         }
         axios(config).then(renpose=> {
-            navigate(`/`);
+            navigate('/');
         });
     }
 
