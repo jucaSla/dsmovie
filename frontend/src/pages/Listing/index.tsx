@@ -28,9 +28,14 @@ function Listing() {
             });
 
     }, [pageNumber]);
+
+    const handlePageChage = (newPageNumber :number) => {
+        setPageNumber(newPageNumber);
+    }
+
     return (
         <>
-            <Pagination />
+            <Pagination page={page} onChange={handlePageChage} />
             <div className="container">
                 <div className="row">
                     {page.content.map(movie => (
